@@ -32,7 +32,7 @@
       };
     };
     # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
-    extensions = [ "ms-python.python" "rangav.vscode-thunder-client"  "ms-python.debugpy"];
+    extensions = [ "ms-python.python" "ms-python.debugpy"];
     workspace = {
       # Runs when a workspace is first created with this `dev.nix` file
       onCreate = {
