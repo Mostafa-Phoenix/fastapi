@@ -25,7 +25,7 @@
       previews = {
         web = {
           command = [ "./devserver.sh" ];
-          env = { PORT = "$PORT"; };
+          env = { PORT = "8080"; };
           manager = "web";
           cwd = ".";
         };

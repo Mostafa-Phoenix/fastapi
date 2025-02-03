@@ -76,7 +76,7 @@ ipython_log.py
 # .idx/
 
 # My project specific ignores
-models/*/*.gguf
+models/*.gguf
 # slowRun.sh
 # tree.sh
 static/

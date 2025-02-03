@@ -1,7 +1,7 @@
 import os
 from llama_cpp import Llama
 
-MODEL_PATH = os.path.join("models", "deepseek", "model.gguf")
+MODEL_PATH = os.path.join("models", "model.gguf")
 
 def load_model():
     try:

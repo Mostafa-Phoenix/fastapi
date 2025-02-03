@@ -17,7 +17,7 @@ TARGET_DIR="${1:-.}"
 
 # Exclude patterns: adjust as needed. The -I option accepts a pattern with
 # names separated by | (pipe). Here we exclude .venv, .idx, and libraries directories.
-EXCLUDE_PATTERN=".venv|.idx|libraries"
+EXCLUDE_PATTERN=".venv|.idx|__pycache__|.vscode"
 
 # Run tree with the exclusion pattern
 tree -I "${EXCLUDE_PATTERN}" "${TARGET_DIR}"
